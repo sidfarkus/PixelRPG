@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Game Code">
+      <UniqueIdentifier>{3e3e4840-1795-4090-9fa3-1a62ec45f3c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Code\States">
+      <UniqueIdentifier>{554c80d3-169a-451b-bc37-274fd88f02ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Code\Entities">
+      <UniqueIdentifier>{3e20642c-9944-4593-8634-75304706d92e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Code\Objects">
+      <UniqueIdentifier>{4bc6f79c-70df-4203-a414-5bf364cb5492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{d993c162-b3de-455e-933b-d65b8ad8d97b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting">
+      <UniqueIdentifier>{42b97bd0-786d-48b5-a268-0432e592305d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{fdf07f5f-15e2-47fd-af73-bb4ac96d84e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drawing">
+      <UniqueIdentifier>{048e7e87-eee2-41fb-99ed-7c6065f02a20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="General">
+      <UniqueIdentifier>{a0a6c7c7-fbac-4c14-8819-6cfc88f54956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{810eb859-21a9-4000-ae4e-4fe0bd8c476e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cell.cpp">
+      <Filter>Game Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Game Code</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelRPG.cpp">
+      <Filter>Game Code</Filter>
+    </ClCompile>
+    <ClCompile Include="Tileset.cpp">
+      <Filter>Game Code</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateChar.cpp">
+      <Filter>Game Code\States</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Game Code\States</Filter>
+    </ClCompile>
+    <ClCompile Include="MapView.cpp">
+      <Filter>Game Code\States</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsMenu.cpp">
+      <Filter>Game Code\States</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldMap.cpp">
+      <Filter>Game Code\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Game Code\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game Code\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Game Code\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Statics.cpp">
+      <Filter>Game Code\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticsCollection.cpp">
+      <Filter>Game Code\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckBox.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Control.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Frame.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Layout.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ListBox.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniMap.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Multibar.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleButton.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Slider.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBox.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="UpDown.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ActionMap.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="GLRenderer.cpp">
+      <Filter>Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageAnimation.cpp">
+      <Filter>Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleState.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStates.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLoader.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundLoader.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.h">
+      <Filter>Drawing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cell.h">
+      <Filter>Game Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Game Code</Filter>
+    </ClInclude>
+    <ClInclude Include="Tileset.h">
+      <Filter>Game Code</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateChar.h">
+      <Filter>Game Code\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Game Code\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MapView.h">
+      <Filter>Game Code\States</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsMenu.h">
+      <Filter>Game Code\States</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldMap.h">
+      <Filter>Game Code\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Game Code\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game Code\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Game Code\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>Game Code\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Statics.h">
+      <Filter>Game Code\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticsCollection.h">
+      <Filter>Game Code\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldObject.h">
+      <Filter>Game Code\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckBox.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Control.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Frame.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ListBox.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniMap.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Multibar.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleButton.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Slider.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBox.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UpDown.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionMap.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="InputState.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="GLRenderer.h">
+      <Filter>Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageAnimation.h">
+      <Filter>Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigFiles.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleState.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStates.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLoader.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundLoader.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prefs.cfg">
+      <Filter>General</Filter>
+    </None>
+  </ItemGroup>
+</Project>

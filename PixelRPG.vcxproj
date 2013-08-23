@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{31B4CAA2-FEA9-4143-8BCB-DCF73026545D}</ProjectGuid>
+    <RootNamespace>PixelRPG</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>Debug\</OutDir>
+    <IntDir>Debug\</IntDir>
+    <ExtensionsToDeleteOnClean>*.ncb%3b*.obj%3b*.ilk%3b*.tlb%3b*.tli%3b*.tlh%3b*.tmp%3b*.rsp%3b*.pgc%3b*.pgd%3b$(TargetPath)</ExtensionsToDeleteOnClean>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>Release\</OutDir>
+    <IntDir>Release\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>lua5.1.lib;sdl.lib;sdl_image.lib;sdl_mixer.lib;glu32.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)PixelRPG.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)PixelRPG.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat />
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>lua5.1.lib;sdl.lib;sdl_image.lib;sdl_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)PixelRPG.exe</OutputFile>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Cell.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="PixelRPG.cpp" />
+    <ClCompile Include="Tileset.cpp" />
+    <ClCompile Include="CreateChar.cpp" />
+    <ClCompile Include="MainMenu.cpp" />
+    <ClCompile Include="MapView.cpp" />
+    <ClCompile Include="OptionsMenu.cpp" />
+    <ClCompile Include="WorldMap.cpp" />
+    <ClCompile Include="Character.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="Statics.cpp" />
+    <ClCompile Include="StaticsCollection.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="CheckBox.cpp" />
+    <ClCompile Include="Control.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="Frame.cpp" />
+    <ClCompile Include="Label.cpp" />
+    <ClCompile Include="Layout.cpp" />
+    <ClCompile Include="ListBox.cpp" />
+    <ClCompile Include="MiniMap.cpp" />
+    <ClCompile Include="Multibar.cpp" />
+    <ClCompile Include="SimpleButton.cpp" />
+    <ClCompile Include="Slider.cpp" />
+    <ClCompile Include="TextBox.cpp" />
+    <ClCompile Include="UpDown.cpp" />
+    <ClCompile Include="ActionMap.cpp" />
+    <ClCompile Include="Color.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="GLRenderer.cpp" />
+    <ClCompile Include="ImageAnimation.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="Console.cpp" />
+    <ClCompile Include="ConsoleState.cpp" />
+    <ClCompile Include="GameStates.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="ImageLoader.cpp" />
+    <ClCompile Include="Sound.cpp" />
+    <ClCompile Include="SoundLoader.cpp" />
+    <ClCompile Include="Texture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cell.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="Tileset.h" />
+    <ClInclude Include="CreateChar.h" />
+    <ClInclude Include="MainMenu.h" />
+    <ClInclude Include="MapView.h" />
+    <ClInclude Include="OptionsMenu.h" />
+    <ClInclude Include="WorldMap.h" />
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="Effects.h" />
+    <ClInclude Include="Statics.h" />
+    <ClInclude Include="StaticsCollection.h" />
+    <ClInclude Include="WorldObject.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="CheckBox.h" />
+    <ClInclude Include="Control.h" />
+    <ClInclude Include="Controller.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="Frame.h" />
+    <ClInclude Include="Label.h" />
+    <ClInclude Include="Layout.h" />
+    <ClInclude Include="ListBox.h" />
+    <ClInclude Include="MiniMap.h" />
+    <ClInclude Include="Multibar.h" />
+    <ClInclude Include="SimpleButton.h" />
+    <ClInclude Include="Slider.h" />
+    <ClInclude Include="TextBox.h" />
+    <ClInclude Include="UpDown.h" />
+    <ClInclude Include="ActionMap.h" />
+    <ClInclude Include="InputState.h" />
+    <ClCompile Include="Color.h" />
+    <ClInclude Include="GLRenderer.h" />
+    <ClInclude Include="ImageAnimation.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="ConfigFiles.h" />
+    <ClInclude Include="Console.h" />
+    <ClInclude Include="ConsoleState.h" />
+    <ClInclude Include="Exception.h" />
+    <ClInclude Include="GameStates.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="ImageLoader.h" />
+    <ClInclude Include="Resources.h" />
+    <ClInclude Include="Sound.h" />
+    <ClInclude Include="SoundLoader.h" />
+    <ClInclude Include="Texture.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prefs.cfg" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,55 @@
+PixelRPG Console Log
+----------------------------------------------
+
+17:33:09: Initialized SDL Timer.
+17:33:09: Starting RenderDevice...
+17:33:09: Video mode set to 800x600x32
+17:33:09: RenderDevice initialized.
+17:33:10: Initialized sound/music playback.
+17:33:10: Loaded image <Resources\GUI\Fonts\vera.png>
+17:33:10: Font Resources\GUI\Fonts\vera.fnt loaded.
+17:33:10: Loaded image <Resources\GUI\Fonts\testfont.png>
+17:33:10: Font Resources\GUI\Fonts\testfont.fnt loaded.
+17:33:10: Loaded image <Resources\GUI\buttonnorm.png>
+17:33:10: Loaded image <Resources\GUI\buttonhover.png>
+17:33:10: Loaded image <Resources\GUI\buttonpress.png>
+17:33:10: Sound <Resources\Sounds\click.wav> loaded successfully.
+17:33:10: Loaded image <Resources\GUI\window.png>
+17:33:10: Loaded image <Resources\GUI\MenuBGtrans.png>
+17:33:10: Loaded image <Resources\GUI\skybg.png>
+17:33:10: Registering gamestate Main Menu.
+17:33:10: Registering gamestate Console.
+17:33:10: Font Resources\GUI\Fonts\testfont.fnt loaded.
+17:33:10: Font Resources\GUI\Fonts\testfont.fnt loaded.
+17:33:10: Loaded image <Resources\GUI\checkbox.png>
+17:33:10: Loaded image <Resources\GUI\slider.png>
+17:33:10: Registering gamestate Options Menu.
+17:33:10: Font Resources\GUI\Fonts\testfont.fnt loaded.
+17:33:10: Loaded image <Resources\Tilesets\grass.png>
+17:33:10: Loaded image <Resources\Tilesets\water.png>
+17:33:10: Registering gamestate Map View.
+17:33:10: Loaded image <Resources\GUI\createchar.png>
+17:33:10: Font Resources\GUI\Fonts\testfont.fnt loaded.
+17:33:10: Loaded image <Resources\GUI\listbox.png>
+17:33:10: Loaded image <Resources\GUI\frame.png>
+17:33:10: Loaded image <Resources\GUI\textbox.png>
+17:33:10: Loaded image <Resources\GUI\updown.png>
+17:33:10: Registering gamestate Create Character.
+17:33:10: Loaded image <Resources\Maps\Worldmap.png>
+17:33:10: Registering gamestate World Map.
+17:33:10: Pushing gamestate Main Menu.
+17:33:17: Pushing gamestate Options Menu.
+17:33:25: Preferences saved.
+17:33:25: Popping current gamestate.
+17:33:26: Popping current gamestate.
+17:33:26: Image <Resources\GUI\createchar.png> released.
+17:33:26: Image <Resources\GUI\listbox.png> released.
+17:33:26: Image <Resources\GUI\updown.png> released.
+17:33:26: Image <Resources\GUI\MenuBGtrans.png> released.
+17:33:26: Image <Resources\GUI\skybg.png> released.
+17:33:26: Image <Resources\Tilesets\water.png> released.
+17:33:26: Image <Resources\Tilesets\grass.png> released.
+17:33:26: Image <Resources\GUI\buttonnorm.png> released.
+17:33:26: Image <Resources\GUI\buttonhover.png> released.
+17:33:26: Image <Resources\GUI\buttonpress.png> released.
+*** End of log ***
